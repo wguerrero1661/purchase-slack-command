@@ -7,7 +7,8 @@ app.use(bodyParser.urlencoded({ extended: false}));
 app.use(bodyParser.json());
 
 app.post("/purchase" , async (req, res) => {
-  console.log(req);
+  console.log(req.body);
+  res.send("ok");
 });
 
 const PORT = 8000;

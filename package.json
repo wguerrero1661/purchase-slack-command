@@ -1,0 +1,22 @@
+{
+  "name": "purchase-slack-command",
+  "version": "1.0.0",
+  "description": "purchase bot for slack",
+  "main": "purchase-slash-command.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wguerrero1661/purchase-slack-command.git"
+  },
+  "author": "Walter Guerrero",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wguerrero1661/purchase-slack-command/issues"
+  },
+  "homepage": "https://github.com/wguerrero1661/purchase-slack-command#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
